@@ -16,17 +16,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
+                <h2>Search the BBC</h2>
                 <form class="form-inline" id="search-form" action=".">
                     <div class="form-group">
                         <input type="text" class="form-control" id="search-query" name="q" placeholder="Type your search term..">
                     </div>
                     <button type="submit" class="btn btn-primary">Go</button>
                 </form>
+                
+                <div id="result-links" class="result-links"></div>
             </div>
             <div class="col-md-8 map-box" id="map"></div>
         </div>
     </div>
     <script src="lib/js/leaflet.js"></script>
+    <script src="lib/js/lodash.min.js"></script>
     <script src="lib/js/app.min.js"></script>
     <script src="//localhost:35729"></script>
 </body>

@@ -10,7 +10,7 @@
     "prebuild": "npm run clean -s",
     "build": "npm run build:css -s && npm run build:js -s && npm run build:images",
     "build:css": "echo '>> compiling css..' && node-sass -s --include-path src/scss src/scss/app.scss build/css/app.css",
-    "build:js": "cp node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js lib/js && cp node_modules/leaflet/dist/leaflet.js lib/js && cp src/js/app.js build/js",
+    "build:js": "cp node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js lib/js && cp node_modules/lodash/lodash.min.js lib/js && cp node_modules/leaflet/dist/leaflet.js lib/js && cp src/js/app.js build/js",
     "build:images": "cp node_modules/leaflet/dist/images/* lib/css",
     "minify": "npm run minify:js -s && npm run minify:css -s",
     "minify:css": "cleancss build/css/app.css -o lib/css/app.min.css",
@@ -39,6 +39,7 @@
     "uglify-js": "^2.7.5"
   },
   "dependencies": {
-    "leaflet": "^1.0.2"
+    "leaflet": "^1.0.2",
+    "lodash": "^4.17.2"
   }
 }
