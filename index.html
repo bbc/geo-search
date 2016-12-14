@@ -17,7 +17,13 @@
         <div class="row">
             <div class="col-md-4">
                 <h2>Search the BBC</h2>
-                <form class="form-inline" id="search-form" action=".">
+                <form class="form" id="search-form" action=".">
+                    <div class="form-group">
+                        <select class="form-control" id="search-location">
+                            <option value="salford" selected="selected">Salford</option>
+                            <option value="warwickshire">Warwickshire</option>
+                        </select>
+                    </div>
                     <div class="form-group">
                         <input type="text" class="form-control" id="search-query" name="q" placeholder="Type your search term..">
                     </div>

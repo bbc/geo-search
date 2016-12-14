@@ -1,0 +1,174 @@
+{
+  "q": "salford",
+  "q1": "salford",
+  "count": 6,
+  "results": [
+    {
+      "group_uri": "urn:bbc:places:2638671",
+      "group_leaf": false,
+      "synopsis": "Salford (/ˈsɒlfərd/ SOL-fərd) is a town lying at the heart of the City of Salford, a metropolitan borough of Greater Manchester, in North West England. (53.48771,-2.29042)",
+      "media_type": [
+        "text"
+      ],
+      "language": "en",
+      "group_level": 1,
+      "uri": "urn:bbc:places:2638671",
+      "precedence": 1.3,
+      "type": "place",
+      "title": "Salford",
+      "score": 27.138464,
+      "site": {
+        "id": "places",
+        "name": "Places"
+      },
+      "section": {
+        "id": "cityandboroughofsalford",
+        "name": "City and Borough of Salford"
+      },
+      "location": [
+        "53.48771,-2.29042"
+      ],
+      "available": true,
+      "url": "https://en.wikipedia.org/wiki/Salford,_Greater_Manchester"
+    },
+    {
+      "group_uri": "urn:bbc:places:2638673",
+      "group_leaf": false,
+      "synopsis": "Salford is a village and civil parish about 1 1⁄2 miles (2.4 km) west of Chipping Norton, Oxfordshire. (51.94929,-1.58195)",
+      "media_type": [
+        "text"
+      ],
+      "language": "en",
+      "group_level": 1,
+      "uri": "urn:bbc:places:2638673",
+      "precedence": 1.3,
+      "type": "place",
+      "title": "Salford",
+      "score": 27.138464,
+      "site": {
+        "id": "places",
+        "name": "Places"
+      },
+      "section": {
+        "id": "oxfordshire",
+        "name": "Oxfordshire"
+      },
+      "location": [
+        "51.94929,-1.58195"
+      ],
+      "available": true,
+      "url": "https://en.wikipedia.org/wiki/Salford,_Oxfordshire"
+    },
+    {
+      "group_uri": "urn:bbc:places:2638672",
+      "group_leaf": false,
+      "synopsis": "Salford (/ˈsæfəd/) is a small English village in the county of Bedfordshire, near the large new town of Milton Keynes. (52.04389,-0.63635)",
+      "media_type": [
+        "text"
+      ],
+      "language": "en",
+      "group_level": 1,
+      "uri": "urn:bbc:places:2638672",
+      "precedence": 1.3,
+      "type": "place",
+      "title": "Salford",
+      "score": 19.18979,
+      "site": {
+        "id": "places",
+        "name": "Places"
+      },
+      "section": {
+        "id": "centralbedfordshire",
+        "name": "Central Bedfordshire"
+      },
+      "location": [
+        "52.04389,-0.63635"
+      ],
+      "available": true,
+      "url": "https://en.wikipedia.org/wiki/Salford,_Bedfordshire"
+    },
+    {
+      "group_uri": "urn:bbc:places:2638670",
+      "group_leaf": false,
+      "synopsis": "Salford Priors is a rural, agricultural village and civil parish about four miles south-west of Alcester, Warwickshire, England. (52.15813,-1.89054)",
+      "media_type": [
+        "text"
+      ],
+      "language": "en",
+      "group_level": 1,
+      "uri": "urn:bbc:places:2638670",
+      "precedence": 1.3,
+      "type": "place",
+      "title": "Salford Priors",
+      "score": 15.911011,
+      "site": {
+        "id": "places",
+        "name": "Places"
+      },
+      "section": {
+        "id": "warwickshire",
+        "name": "Warwickshire"
+      },
+      "location": [
+        "52.15813,-1.89054"
+      ],
+      "available": true,
+      "url": "https://en.wikipedia.org/wiki/Salford_Priors"
+    },
+    {
+      "group_uri": "urn:bbc:places:2638669",
+      "group_leaf": false,
+      "synopsis": "Salfords /ˈsælfʊdz/ SAL-fudz) is a village in the borough of Reigate and Banstead in Surrey, England. (51.2043,-0.16947)",
+      "media_type": [
+        "text"
+      ],
+      "language": "en",
+      "group_level": 1,
+      "uri": "urn:bbc:places:2638669",
+      "precedence": 1.3,
+      "type": "place",
+      "title": "Salfords",
+      "score": 15.911011,
+      "site": {
+        "id": "places",
+        "name": "Places"
+      },
+      "section": {
+        "id": "surrey",
+        "name": "Surrey"
+      },
+      "location": [
+        "51.2043,-0.16947"
+      ],
+      "available": true,
+      "url": "https://en.wikipedia.org/wiki/Salfords"
+    },
+    {
+      "group_uri": "urn:bbc:places:9072589",
+      "group_leaf": false,
+      "synopsis": "Abbot's Salford, Warwickshire (52.15058,-1.90149)",
+      "media_type": [
+        "text"
+      ],
+      "language": "en",
+      "group_level": 1,
+      "uri": "urn:bbc:places:9072589",
+      "precedence": 1.3,
+      "type": "place",
+      "title": "Abbot's Salford",
+      "score": 6.5929112,
+      "site": {
+        "id": "places",
+        "name": "Places"
+      },
+      "section": {
+        "id": "warwickshire",
+        "name": "Warwickshire"
+      },
+      "location": [
+        "52.15058,-1.90149"
+      ],
+      "available": true
+    }
+  ]
+}

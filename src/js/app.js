@@ -29,20 +29,29 @@ function initMap() {
 
 function initSearch() {
     var searchForm = document.getElementById('search-form'),
-        searchTermField = document.getElementById('search-query');
+        searchTermField = document.getElementById('search-query'),
+        locationField = document.getElementById('search-location');
 
     searchForm.addEventListener('submit', function(e) {
         e.preventDefault();
         clearSearchResults();
         clearMapMarkers();
         var searchTerm = searchTermField.value;
-        searchRequest(searchTerm);
+        var location = locationField.value;
+        searchRequest(searchTerm, location);
     });
 
     geoSearch.resultLinksElement = document.getElementById('result-links');
 
     geoSearch.ResultsHtmlTemplate = _.template(
         '<ul class="list-group"><li class="list-group-item"><p><strong>${ title }</strong></p><p>${ published }</p></li></ul>');
+
+    geoSearch.searchUrlTemplate = _.template('https://moci6bpkok.execute-api.eu-west-1.amazonaws.com/prod/search-query?results=true&lang=en&group=true&mode=query&location_boost=true&location=${location}&q=${term}');
+
+    geoSearch.locations = {
+        'salford':'53.48771%2C-2.29042',
+        'warwickshire':'52.15058%2C-1.90149'
+    }
 }
 
 function clearSearchResults() {
@@ -53,9 +62,12 @@ function clearMapMarkers() {
     geoSearch.markersLayer.clearLayers();
 }
 
-function searchRequest(term) {
-    // var url = "https://moci6bpkok.execute-api.eu-west-1.amazonaws.com/prod/search-query?results=true&lang=en&group=true&mode=query&location_boost=true&q=";
-    var url = "https://moci6bpkok.execute-api.eu-west-1.amazonaws.com/prod/search-query?results=true&lang=en&group=true&mode=query&location_boost=true&location=50.37153%2C-4.14305&q=";
+function searchRequest(term, location) {
+    var url = geoSearch.searchUrlTemplate({
+        'location': geoSearch.locations[location],
+        'term': term
+    });
+
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function () {
@@ -71,7 +83,7 @@ function searchRequest(term) {
         }
     };
 
-    xhr.open('GET', url + term, true);
+    xhr.open('GET', url, true);
     xhr.send();
 }
 
