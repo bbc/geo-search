@@ -13,8 +13,18 @@
     <link rel="stylesheet" href="lib/css/app.min.css">
 </head>
 <body>
-    <div id="map">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <form class="form-inline" id="search-form" action=".">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="search-query" name="q" placeholder="Type your search term..">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Go</button>
+                </form>
+            </div>
+            <div class="col-md-8 map-box" id="map"></div>
+        </div>
     </div>
     <script src="lib/js/leaflet.js"></script>
     <script src="lib/js/app.min.js"></script>

@@ -24,6 +24,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bbc/geo-search.git"
+  },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
     "clean-css": "^3.4.21",

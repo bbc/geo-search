@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function init() {
-    var mymap = L.map('map').setView([51.505, -0.09], 13);
+    initMap();
+    initSearch();
+}
+
+function initMap() {
+    var centreOfUk = [54.00366, -2.547855]
+
+    var map = L.map('map').setView(centreOfUk, 6);
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
 		maxZoom: 18,
@@ -11,32 +18,42 @@ function init() {
 			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		id: 'mapbox.streets'
-	}).addTo(mymap);
+	}).addTo(map);
+}
 
-	L.marker([51.5, -0.09]).addTo(mymap)
-		.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+function initSearch() {
+    var searchForm = document.getElementById('search-form'),
+        searchTermField = document.getElementById('search-query');
 
-	L.circle([51.508, -0.11], 500, {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5
-	}).addTo(mymap).bindPopup("I am a circle.");
+    searchForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var searchTerm = searchTermField.value;
+        searchRequest(searchTerm);
 
-	L.polygon([
-		[51.509, -0.08],
-		[51.503, -0.06],
-		[51.51, -0.047]
-	]).addTo(mymap).bindPopup("I am a polygon.");
+    });
+}
 
+function searchRequest(term) {
+    var url = "https://moci6bpkok.execute-api.eu-west-1.amazonaws.com/prod/search-query?results=true&lang=en&group=true&mode=query&location_boost=true&location=50.37153%2C-4.14305&q=";
+    var xhr = new XMLHttpRequest();
 
-	var popup = L.popup();
+    xhr.onreadystatechange = function () {
+        var DONE = 4;
+        var OK = 200;
 
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent("You clicked the map at " + e.latlng.toString())
-			.openOn(mymap);
-	}
+        if (xhr.readyState === DONE) {
+            if (xhr.status === OK) {
+                processResponse(xhr.responseText);
+            } else {
+                console.log('Error: ' + xhr.status);
+            }
+        }
+    };
 
-	mymap.on('click', onMapClick);
+    xhr.open('GET', url + term, true);
+    xhr.send();
+}
+
+function processResponse(response) {
+    console.log(response);
 }
