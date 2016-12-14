@@ -1,0 +1,40 @@
+{
+  "name": "geo-search",
+  "version": "1.0.0",
+  "description": "Location based search results",
+  "main": "index.html",
+  "scripts": {
+    "lint": "npm run lint:sass",
+    "lint:sass": "echo '>> linting sass..' && scss-lint",
+    "clean": "rm -rdf build && mkdir -p build/js && rm -rdf lib && mkdir -p lib/js && mkdir -p lib/css",
+    "prebuild": "npm run clean -s",
+    "build": "npm run build:css -s && npm run build:js -s && npm run build:images",
+    "build:css": "echo '>> compiling css..' && node-sass -s --include-path src/scss src/scss/app.scss build/css/app.css",
+    "build:js": "cp node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js lib/js && cp node_modules/leaflet/dist/leaflet.js lib/js && cp src/js/app.js build/js",
+    "build:images": "cp node_modules/leaflet/dist/images/* lib/css",
+    "minify": "npm run minify:js -s && npm run minify:css -s",
+    "minify:css": "cleancss build/css/app.css -o lib/css/app.min.css",
+    "minify:js": "uglifyjs build/js/app.js -o lib/js/app.min.js",
+    "prepackage": "npm run lint -s",
+    "package": "npm run build -s && npm run minify -s",
+    "watch": "nodemon -x 'npm run build && npm run minify' -e scss,js,html -w src",
+    "serve": "http-server ./",
+    "reload": "live-reload --port 35729 lib/ index.html",
+    "local": "npm run watch -s & npm run serve -s & npm run reload -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "clean-css": "^3.4.21",
+    "eslint": "^3.12.1",
+    "http-server": "^0.9.0",
+    "live-reload": "^1.1.0",
+    "node-sass": "^3.13.0",
+    "scss-lint": "0.0.0",
+    "uglify-js": "^2.7.5"
+  },
+  "dependencies": {
+    "leaflet": "^1.0.2"
+  }
+}
