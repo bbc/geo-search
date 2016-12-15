@@ -1,0 +1,463 @@
+{
+  "params": {
+    "q": "police",
+    "timezone": "Etc/UTC"
+  },
+  "count": 548,
+  "facets": [],
+  "results": [
+    {
+      "locator": [
+        "urn:asset:93619859-fbc3-eb41-8b0a-79362ea75f08",
+        "urn:bbc:cps:asset:38281333"
+      ],
+      "group_uri": "urn:bbc:news:cps:38281333",
+      "keywords": [
+        "Bournemouth"
+      ],
+      "synopsis": "A dog that was stolen while its owner was being treated by paramedics is found after an \"overwhelming\" public response.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/9CC4/production/_92923104_mediaitem92922450.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-dorset-38281333",
+      "updated": "2016-12-11T11:44:52Z",
+      "location": [
+        "50.72,-1.88"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38281333",
+      "published": "2016-12-11T11:44:52+0000",
+      "title": "Stolen dog tracked down after Dorset Police appeal",
+      "group_path": "urn:bbc:news:cps:38281333",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "dorset",
+        "name": "Dorset"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/9CC4/production/_92923104_mediaitem92922450.jpg",
+      "content": [
+        "…  in Bournemouth. <em>Police</em> issued an image of a woman they want to speak… , of Bournemouth <em>police</em>. The dog was found outside Hamworthy Library… . A Dorset <em>Police</em> spokesman said there had been many leads from…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:de9df8f2-8bd2-3a48-9949-85e393dedaa6",
+        "urn:bbc:cps:asset:38264767"
+      ],
+      "group_uri": "urn:bbc:news:cps:38264767",
+      "keywords": [
+        "Oxford"
+      ],
+      "synopsis": "Two corner shop raids in which three masked men made off with bottles of Jack Daniel's whiskey may be linked.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/12BCE/production/_92905767_gettyimages-462718636.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-oxfordshire-38264767",
+      "updated": "2016-12-09T14:29:51Z",
+      "location": [
+        "51.752,-1.256"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38264767",
+      "published": "2016-12-09T14:29:51+0000",
+      "title": "Oxford Jack Daniel's robbery gang hunted by police",
+      "group_path": "urn:bbc:news:cps:38264767",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "oxford",
+        "name": "Oxford"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/12BCE/production/_92905767_gettyimages-462718636.jpg",
+      "content": [
+        "Two corner shop raids in which three masked men made off with bottles of Jack Daniel's whiskey may be linked."
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:36816de0-4667-5144-9b3b-d084a3d40ef4",
+        "urn:bbc:cps:asset:38266590"
+      ],
+      "group_uri": "urn:bbc:news:cps:38266590",
+      "keywords": [
+        "Thames Valley Police",
+        "Slough",
+        "Independent Police Complaints Commission"
+      ],
+      "synopsis": "Investigation launches into fatal collision which happened during police pursuit.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/D50C/production/_92904545_m4.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-berkshire-38266590",
+      "updated": "2016-12-09T18:08:17Z",
+      "location": [
+        "51.509,-0.595"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38266590",
+      "published": "2016-12-09T18:08:17+0000",
+      "title": "M4 police pursuit crash in Slough to be investigated",
+      "group_path": "urn:bbc:news:cps:38266590",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "berkshire",
+        "name": "Berkshire"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/D50C/production/_92904545_m4.jpg",
+      "content": [
+        "… The Independent <em>Police</em> Complaints Commission (IPCC) has… a <em>police</em> pursuit. A 36-year-old man died after the Peugeot he… <em>Police</em> vehicle. It said it would \"examine the actions…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:5af11c4e-7067-8040-9e56-5b78789fb453",
+        "urn:bbc:cps:asset:38204248"
+      ],
+      "group_uri": "urn:bbc:news:cps:38204248",
+      "keywords": [
+        "Bedford",
+        "BBC Bedfordshire, Hertfordshire and Buckinghamshire"
+      ],
+      "synopsis": "Police have named the man killed at a hotel in Bedford",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/173BB/production/_92836159_hotel2.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-beds-bucks-herts-38204248",
+      "updated": "2016-12-05T12:16:42Z",
+      "location": [
+        "52.135,-0.466"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38204248",
+      "published": "2016-12-05T12:16:42+0000",
+      "title": "Police have named the man killed at a hotel in Bedford",
+      "group_path": "urn:bbc:news:cps:38204248",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "bedshertsbucks",
+        "name": "Beds, Herts & Bucks"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/173BB/production/_92836159_hotel2.jpg",
+      "content": [
+        "…  death has been launched, Bedfordshire <em>Police</em> said. A 39-year-old…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:d105bcf7-6102-b849-bda6-a2e427cad1c4",
+        "urn:bbc:cps:asset:38266326"
+      ],
+      "group_uri": "urn:bbc:news:cps:38266326",
+      "keywords": [
+        "Wolverhampton",
+        "BBC Birmingham and Black Country"
+      ],
+      "synopsis": "A man called police to tell them where they would find his dead wife before his own body was discovered at the scene of a car crash more than 200 miles away.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/9614/production/_92902483_mediaitem92902482.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-birmingham-38266326",
+      "updated": "2016-12-09T16:16:56Z",
+      "location": [
+        "52.585,-2.123"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38266326",
+      "published": "2016-12-09T16:16:56+0000",
+      "title": "Husband 'told police about dead wife' before own death",
+      "group_path": "urn:bbc:news:cps:38266326",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "birminghamblackcountry",
+        "name": "Birmingham & Black Country"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/9614/production/_92902483_mediaitem92902482.jpg",
+      "content": [
+        "… A man called <em>police</em> to tell them where to find his dead… , <em>police</em> have said. The woman's body was found in a house in Mill… collision\" in Dover, West Midlands <em>Police</em> said. <em>Police</em>…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:e5ae9eb3-35d7-ca4a-b37b-98ae8460c780",
+        "urn:bbc:cps:asset:38231109"
+      ],
+      "group_uri": "urn:bbc:news:cps:38231109",
+      "keywords": [
+        "Greater Manchester Police",
+        "Cheadle"
+      ],
+      "synopsis": "A passenger in a car involved in a collision during a police pursuit in Greater Manchester dies.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/7E32/production/_92860323_birdhalllane.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-manchester-38231109",
+      "updated": "2016-12-07T06:48:55Z",
+      "location": [
+        "53.4,-2.217"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38231109",
+      "published": "2016-12-07T06:48:55+0000",
+      "title": "Passenger in Cheadle police chase crash car dies",
+      "group_path": "urn:bbc:news:cps:38231109",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "manchester",
+        "name": "Manchester"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/7E32/production/_92860323_birdhalllane.jpg",
+      "content": [
+        "…  a <em>police</em> pursuit in Greater Manchester has died. Officers began… requested on Birdhall Lane in Cheadle on 24 November, <em>police</em> said… was taken to hospital after the crash but died on Tuesday, <em>police</em>…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:db69006a-ac81-f443-a698-1a87921bf44c",
+        "urn:bbc:cps:asset:38206065"
+      ],
+      "group_uri": "urn:bbc:news:cps:38206065",
+      "keywords": [
+        "Greater Manchester Police",
+        "Greater Manchester Fire and Rescue Service",
+        "Rochdale"
+      ],
+      "synopsis": "A stolen car crashes into a house after being pursued through the streets of Rochdale by police.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/147C9/production/_92831938_f7b0f469-7c08-4306-a41a-8486d914524b.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-manchester-38206065",
+      "updated": "2016-12-05T07:51:38Z",
+      "location": [
+        "53.618,-2.155"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38206065",
+      "published": "2016-12-05T07:51:38+0000",
+      "title": "Stolen car crashes into house after police chase",
+      "group_path": "urn:bbc:news:cps:38206065",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "manchester",
+        "name": "Manchester"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/147C9/production/_92831938_f7b0f469-7c08-4306-a41a-8486d914524b.jpg",
+      "content": [
+        "…  a <em>police</em> chase. The silver Kia C'eed was followed by <em>police</em> after…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:198e3340-114a-5f44-a1b9-24bd4fa7cd7f",
+        "urn:bbc:cps:asset:38262565"
+      ],
+      "group_uri": "urn:bbc:news:cps:38262565",
+      "keywords": [
+        "Blackburn",
+        "Darwen",
+        "Independent Police Complaints Commission"
+      ],
+      "synopsis": "An investigation begins into the death in police custody of a woman who was found \"unresponsive\" in her cell.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/17AA2/production/_92903969_1kellyflowers.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-lancashire-38262565",
+      "updated": "2016-12-09T13:11:48Z",
+      "location": [
+        "53.75,-2.483",
+        "53.698,-2.465"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38262565",
+      "published": "2016-12-09T13:11:48+0000",
+      "title": "Woman, 35, dies in police custody in Blackburn",
+      "group_path": "urn:bbc:news:cps:38262565",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "lancashire",
+        "name": "Lancashire"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/17AA2/production/_92903969_1kellyflowers.jpg",
+      "content": [
+        "… A 35-year-old woman has died in <em>police</em> custody in Blackburn… <em>police</em> station. After she was found \"unresponsive\" in her cell… later died, Lancashire <em>Police</em> added. The incident has been…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:bfaafff9-3d34-5f4b-8c26-54bf2ba9fbaf",
+        "urn:bbc:cps:asset:38264771"
+      ],
+      "group_uri": "urn:bbc:news:cps:38264771",
+      "keywords": [
+        "Oxford",
+        "Oxford Crown Court",
+        "Reading"
+      ],
+      "synopsis": "A man who broke a police officer's jaw in a \"cowardly and despicable\" attack is jailed for two years.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/179EE/production/_92905769_p04ktrhl.jpg",
+      "media_type": [
+        "video"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-38264771",
+      "updated": "2016-12-09T17:07:26Z",
+      "location": [
+        "51.752,-1.256",
+        "51.456,-0.971"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38264771",
+      "published": "2016-12-09T17:07:26+0000",
+      "title": "Reading man who broke Oxford police officer's jaw jailed for two years",
+      "group_path": "urn:bbc:news:cps:38264771",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "england",
+        "name": "England"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/179EE/production/_92905769_p04ktrhl.jpg",
+      "content": [
+        "… A man who broke a <em>police</em> officer's jaw in a \"cowardly… a <em>police</em> officer is a cowardly and despicable act.\"…"
+      ]
+    },
+    {
+      "locator": [
+        "urn:asset:5159a9d7-53ae-c04e-9a30-9ee2e9713454",
+        "urn:bbc:cps:asset:38214305"
+      ],
+      "group_uri": "urn:bbc:news:cps:38214305",
+      "keywords": [
+        "Preston"
+      ],
+      "synopsis": "A scheme allowing night-clubbers to test the ingredients of illegal drugs is being considered by police.",
+      "image_uri": "http://ichef.bbci.co.uk/news/200/cpsprodpb/AC3D/production/_92839044_000207178.jpg",
+      "media_type": [
+        "text"
+      ],
+      "url": "http://www.bbc.co.uk/news/uk-england-lancashire-38214305",
+      "updated": "2016-12-05T17:55:36Z",
+      "location": [
+        "53.767,-2.717"
+      ],
+      "language": [
+        "en",
+        "en-gb"
+      ],
+      "group_level": 1,
+      "uri": "urn:bbc:news:cps:38214305",
+      "published": "2016-12-05T17:55:36+0000",
+      "title": "Police consider drug-testing scheme for Preston nightclubs",
+      "group_path": "urn:bbc:news:cps:38214305",
+      "precedence": 1,
+      "group_count": 1,
+      "site": {
+        "id": "news",
+        "name": "News"
+      },
+      "available": true,
+      "section": {
+        "id": "lancashire",
+        "name": "Lancashire"
+      },
+      "image_url": "http://ichef.bbci.co.uk/news/200/cpsprodpb/AC3D/production/_92839044_000207178.jpg",
+      "content": [
+        "… . Lancashire <em>Police</em> said they had discussed the idea of setting up…"
+      ]
+    }
+  ]
+}
