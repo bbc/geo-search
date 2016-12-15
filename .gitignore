@@ -3,4 +3,4 @@ build/
 coverage/
 npm-debug.log
 lib/
-.vscode
+.vscode.DS_Store

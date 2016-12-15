@@ -4,3 +4,8 @@
     overflow-y: scroll;
     border-bottom: 1px solid #ccc; 
 }
+
+.selected-location {
+    text-transform: capitalize;
+    font-weight: bold;
+}
